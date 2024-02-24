@@ -417,11 +417,11 @@ body{
 }
 
 #sm-banner .banner-box3{
-    background-image: url(Images/index img/R.jfif);
+    background-image: url("Images/index img/R.jfif");
 }
 
 #sm-banner .banner-box4{
-    background-image: url(Images/index img/shoess.jfif);
+    background-image: url("Images/index img/shoess.jfif");
 }
 
 #sm-banner .banner-box5{
