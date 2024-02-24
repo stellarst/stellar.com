@@ -398,7 +398,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(mensb.jpg);
+    background-image: url("https://github.com/stellarst/stellar.com/blob/main/Images/index%20img/mensb.jpg?raw=true");
     width: 331px;
     height: 34vh;
     background-size: cover;
@@ -409,23 +409,23 @@ body{
 }
 
 #sm-banner .banner-box1{
-    background-image: url("img/girls.jpg");
+    background-image: url("https://github.com/stellarst/stellar.com/blob/main/Images/index%20img/girls.jpg?raw=true");
 }
 
 #sm-banner .banner-box2{
-    background-image: url("img/a2.jpg");
+    background-image: url("https://github.com/stellarst/stellar.com/blob/main/Images/index%20img/a2.jpg?raw=true");
 }
 
 #sm-banner .banner-box3{
-    background-image: url("R.jfif");
+    background-image: url("Images/index img/R.jfif");
 }
 
 #sm-banner .banner-box4{
-    background-image: url("shoess.jfif");
+    background-image: url("Images/index img/shoess.jfif");
 }
 
 #sm-banner .banner-box5{
-    background-image: url("mobileacc.jpg");
+    background-image: url("https://github.com/stellarst/stellar.com/blob/main/Images/index%20img/mobileacc.jpg?raw=true");
 }
 
 .banner-1{
