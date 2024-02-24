@@ -965,6 +965,7 @@ h5 span {
 #blog .blog-img {
     width: 50%;
     margin-right: 40px;
+    box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16), -10px -10px 10px -1px
 }
 
 #blog img {
