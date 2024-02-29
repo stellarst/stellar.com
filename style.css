@@ -1648,3 +1648,140 @@ ul li:hover .dropdown__menu ul li {
 .form-group input[type="submit"]:hover {
     background-color: #4cae4c;
 }
+
+
+
+
+
+@media(max-width:858px){
+     
+
+    /* navbar code */
+    .checkbtn{
+        display: flex;
+        
+    }
+
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ul{
+        position: absolute;
+        width: 50%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 111px;
+        left: 100%;
+        text-align: center;
+        transition: all .3s;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        margin: -3px 0;
+        line-height: 80px;
+        padding: 80px 0 30px 10px;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.3)
+        
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    a:hover,a.active{
+        background: none;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    .navbar li a.active::after,
+    .navbar li a:hover::after{
+        left: 175px;
+        width: 9%;
+        top: 60px;
+        
+    }
+    .fas{
+        float: right;
+        margin-left: 0px;
+        padding-top: 27px;
+    }
+    .navbar li a {
+        text-decoration: none;
+        font-size: 28px;
+        font-weight: 600;
+        color: #1a1a1a;
+        transition: 0.3s ease;
+    }
+    
+    /* end navbar code */
+ 
+
+    #hero {
+        height: 90vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+
+
+    .banner-1 {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #newsletter .form {
+        width: 70%;
+    }
+    
+   
+}
+
+@media (max-width:477px){
+    #header {
+        padding: 10px 20px;
+    }
+    .checkbtn {
+        margin-bottom: 23px;
+    }
+    #hero {
+        background-position: 65%;
+        padding: 0 20px;
+
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h1 {
+        font-size: 38px;
+    }
+    .section-p1 {
+        padding: 20px;
+    }
+    #newsletter .form {
+        width: 100%;
+    }
+    #newsletter {
+        padding: 40px 20px;
+    }
+    footer .copyright {
+        text-align: start;
+    }
+
+}
