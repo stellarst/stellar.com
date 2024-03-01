@@ -1801,4 +1801,28 @@ ul li:hover .dropdown__menu ul li {
         text-align: start;
     }
 
+      /* blog page */
+    #page-header {
+        height: 29vh;
+    }
+    #page-header.blog-header h5 {
+        font-size: 2rem;
+    }
+    #blog .blog-box {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+    #blog .blog-img {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #blog .blog-details {
+        width: 100%;
+    }
+
 }
