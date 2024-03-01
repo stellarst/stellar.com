@@ -1776,6 +1776,7 @@ ul li:hover .dropdown__menu ul li {
     }
     .checkbtn {
         margin-bottom: 23px;
+        margin-right: 18px;
     }
     #hero {
         background-position: 65%;
